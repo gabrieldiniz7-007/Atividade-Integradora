@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sistema Acadêmico Web</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topo">
+    <div class="container">
+      <h1>Sistema Acadêmico Web</h1>
+      <nav>
+        <a href="#inicio">Início</a>
+        <a href="#alunos">Alunos</a>
+        <a href="#disciplinas">Disciplinas</a>
+        <a href="#contato">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="inicio" class="hero">
+      <div class="container">
+        <h2>Bem-vindo ao sistema</h2>
+        <p>
+          Projeto acadêmico para demonstração de versionamento com Git e GitHub.
+        </p>
+        <button id="btnMensagem">Ver mensagem</button>
+        <p id="mensagem" class="mensagem"></p>
+      </div>
+    </section>
+
+    <section id="alunos" class="secao">
+      <div class="container">
+        <h3>Alunos cadastrados</h3>
+        <ul class="lista">
+          <li>Ana Souza</li>
+          <li>Bruno Lima</li>
+          <li>Carla Mendes</li>
+          <li>Diego Ferreira</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="disciplinas" class="secao destaque">
+      <div class="container">
+        <h3>Disciplinas</h3>
+        <div class="cards">
+          <div class="card">Algoritmos</div>
+          <div class="card">Banco de Dados</div>
+          <div class="card">Engenharia de Software</div>
+          <div class="card">Redes de Computadores</div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contato" class="rodape">
+    <div class="container">
+      <p>UniFil - Projeto acadêmico demonstrativo</p>
+      <p>E-mail: contato@sistemaacademico.com</p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
